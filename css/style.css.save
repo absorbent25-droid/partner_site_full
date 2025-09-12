@@ -1,0 +1,87 @@
+    background: #0077b6;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 { margin: 0; }
+
+nav { margin-top: 10px; }
+
+nav a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover { text-decoration: underline; }
+
+section { padding: 40px 20px; max-width: 900px; margin: auto; }
+
+.tour-operator {
+    background: white;
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    display: flex;
+    align-items    border-radius: 5px;
+}
+
+.tour-operator h3 { margin: 0; }
+
+.tour-operator a {
+    margin-left: auto;
+    padding: 10px 15px;
+    background: #023e8a;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.tour-operator a:hover { background: #001f3f; }
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.contact-form button {
+    padding: 10px 20px;
+    background: #0077b6;
+    color: white;
+    border: none;
+    border-radius: 5px;
+   cursor: pointer;
+}
+
+.contact-form button:hover { background: #005f87; }
+
+footer {
+    background: #023e8a;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
