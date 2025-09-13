@@ -150,3 +150,47 @@ footer {
 .tour-operator a:hover {
     background: #005fa3;
 }
+/* === Отзывы === */
+#reviews {
+    background: #f4f4f9;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+#reviews h2 {
+    font-size: 28px;
+    margin-bottom: 30px;
+    color: #333;
+}
+
+.reviews {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 20px;
+    max-width: 1100px;
+    margin: auto;
+}
+
+.review {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    transition: transform 0.2s ease;
+}
+
+.review:hover {
+    transform: translateY(-5px);
+}
+
+.review p {
+    font-style: italic;
+    margin-bottom: 15px;
+    color: #444;
+}
+
+.review h4 {
+    color: #0077cc;
+    font-size: 16px;
+    margin: 0;
+}
