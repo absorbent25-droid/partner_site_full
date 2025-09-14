@@ -171,3 +171,24 @@
         <p>Да, вы можете подключить любое количество партнёров и зарабатывать на всех.</p>
     </div>
 </section>
+<section id="contact">
+  <h2>Стать партнёром</h2>
+
+  <form id="partner-form" action="https://formspree.io/f/xldwkeye" method="POST" class="contact-form" novalidate>
+    <input type="text" name="name" id="name" placeholder="Ваше имя" required>
+    <input type="email" name="email" id="email" placeholder="Ваш email" required>
+    <input type="text" name="company" id="company" placeholder="Название компании" required>
+    <textarea name="message" id="message" placeholder="Ваше сообщение" rows="5" required></textarea>
+
+    <!-- Honeypot для спама -->
+    <input type="text" name="_gotcha" style="display:none" tabindex="-1" autocomplete="off">
+
+    <button type="submit">Отправить заявку</button>
+
+    <!-- Статус отправки -->
+    <div id="form-status" aria-live="polite"></div>
+  </form>
+
+  <p>Email: info@partner-tur.ru | Телефон: +7 999 123-45-67</p>
+</section>
+
