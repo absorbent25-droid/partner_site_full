@@ -1,1 +1,82 @@
-... (код index.html из моего ответа выше) ...
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Туризм вместе с нами</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header>
+    <h1>🌍 Туризм вместе с нами</h1>
+    <p>Сотрудничайте с ведущими туроператорами</p>
+  </header>
+
+  <main>
+    <!-- Партнеры -->
+    <section id="partners">
+      <h2>Наши партнёры</h2>
+      <div class="partners-grid">
+        <div class="partner">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/f/f9/TUI_Logo.svg" alt="TUI">
+          <h3>TUI</h3>
+          <p>Крупнейший международный туроператор</p>
+          <a href="https://www.tui.ru/" target="_blank">Стать партнёром</a>
+        </div>
+        <div class="partner">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/6/6c/Coral_Travel_logo.png" alt="Coral Travel">
+          <h3>Coral Travel</h3>
+          <p>Пляжные туры и экскурсии</p>
+          <a href="https://www.coral.ru/" target="_blank">Стать партнёром</a>
+        </div>
+        <div class="partner">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/1/1c/Tez_Tour_logo.png" alt="Tez Tour">
+          <h3>Tez Tour</h3>
+          <p>Семейный отдых и горнолыжные курорты</p>
+          <a href="https://www.teztour.ru/" target="_blank">Стать партнёром</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Форма -->
+    <section id="contact">
+      <h2>Стать партнёром</h2>
+      <form action="https://formspree.io/f/xldwkeye" method="POST">
+        <input type="text" name="name" placeholder="Ваше имя" required>
+        <input type="email" name="email" placeholder="Ваш email" required>
+        <textarea name="message" placeholder="Ваше сообщение"></textarea>
+        <button type="submit">Отправить заявку</button>
+      </form>
+    </section>
+
+    <!-- Отзывы -->
+    <section id="reviews">
+      <h2>Отзывы партнёров</h2>
+      <blockquote>“Мы начали сотрудничество 3 месяца назад и уже получили новых клиентов! Отличный сервис.” <br><cite>Анна, турагентство «Мир Путешествий»</cite></blockquote>
+      <blockquote>“Удобная платформа для поиска партнёров. Всё просто и понятно, рекомендую!” <br><cite>Иван, компания «ТурСервис»</cite></blockquote>
+    </section>
+
+    <!-- FAQ -->
+    <section id="faq">
+      <h2>Частые вопросы</h2>
+      <h3>Как стать партнёром?</h3>
+      <p>Выберите туроператора и нажмите кнопку «Стать партнёром».</p>
+      <h3>Сколько стоит участие?</h3>
+      <p>Бесплатно. Вы получаете процент с каждой успешной продажи.</p>
+      <h3>Когда я получу выплаты?</h3>
+      <p>Ежемесячно, при достижении суммы 1000₽.</p>
+    </section>
+
+    <!-- Донат -->
+    <section id="donate">
+      <h2>Поддержать проект</h2>
+      <p>Если вам нравится наш сервис, вы можете поддержать нас:</p>
+      <a href="https://qiwi.com/n/ВАШ_НИК" target="_blank" class="donate-btn">💳 Донат через Qiwi</a>
+    </section>
+  </main>
+
+  <footer>
+    <p>Email: info@partner-tur.ru | Телефон: +7 999 123-45-67</p>
+  </footer>
+</body>
+</html>
